@@ -1,0 +1,21 @@
+{
+  "name": "node-readme-generator",
+  "version": "1.0.0",
+  "description": "A simple readme file generator from your projects package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" &&exit 1"
+  },
+  "bin": {
+    "readme-generator": "./bin/readme-generator"
+  },
+  "author": {
+    "name": "Mario Dubon",
+    "email": "mdubonrs@yahhoo.com",
+    "website": "https://github.com/mdubon1407/node-readme-generator.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+      "inquire": "^6.3.1" }
+      
+}
